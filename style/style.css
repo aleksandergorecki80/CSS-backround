@@ -1,0 +1,9 @@
+.kadr{
+    width: 500px;
+    height: 400px;
+    background-image:  url("../img/zawor.png"), url("../img/spring-1373199.jpg");
+    background-color: blueviolet;
+    background-position: 50px 63px, 70px 10px;
+    background-size: 130px 150px, 170px 140px;
+    background-repeat: no-repeat, no-repeat;
+}

@@ -1,19 +1,17 @@
-.kadr{
-    width: 500px;
-    height: 100px;
-    background-image:  url("../img/zawor.png"), url("../img/spring-1373199.jpg");
-    background-color: blueviolet;
-    background-position: 50px 63px, 70px 10px;
-    background-size: 130px 150px, 170px 140px;
-    background-repeat: no-repeat, no-repeat;
+.box {
+  grid-row: 1 / 4;
+  grid-column: 2 / 3;
+
+  padding: 20px;
+  background-image:  url("../img/sprind-xs.jpg");
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.kadr2 {
-    height: 400px;
-    width: 400px;
-    background: #eb01a5;
-  background-image: url("../img/zawor.png"); /* fallback */
-  background-image: url("../img/zawor.png"), linear-gradient(#eb01a5, #d13531); /* W3C */
-  background-size: 130px 150px, cover;
-  background-repeat: no-repeat, no-repeat;
+.grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  
 }

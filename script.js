@@ -1,5 +1,3 @@
-
-
 var element = document.getElementById("foo");
 element.style.backgroundImage = "url(zawor.png)";
 

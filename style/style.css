@@ -15,3 +15,16 @@
   grid-template-rows: repeat(3, 1fr);
   
 }
+
+.outside {
+  width: 600px;
+  height: 600px;
+  background-color: blanchedalmond;
+}
+
+.inside {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  padding: 10px;
+}
